@@ -1,3 +1,5 @@
+import ArticleVue from '@/views/Article/Article.vue'
+import FindVue from '@/views/Find/Find.vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/Home/HomeView.vue'
 import HomeWrap from '../views/HomeWrap.vue'
@@ -24,9 +26,9 @@ const router = createRouter({
           component: () => import('../views/About/AboutView.vue')
         },
         {
-          path: '/found',
-          name: 'found',
-          component: HomeView,
+          path: '/find_page',
+          name: 'find_page',
+          component: FindVue,
         },
         {
           path: '/cart',
@@ -42,6 +44,11 @@ const router = createRouter({
           path: '/category/:id',
           name: 'category',
           component: HomeView,
+        },
+        {
+          path: '/article/:id',
+          name: 'article',
+          component: ArticleVue,
         },
       ]
     },

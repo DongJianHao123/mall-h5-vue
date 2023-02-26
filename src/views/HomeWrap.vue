@@ -6,7 +6,7 @@
     <nav>
       <RouterLink class="home" to="/home">首页</RouterLink>
       <RouterLink class="choose" to="/categories">选购</RouterLink>
-      <RouterLink class="found" to="/found">发现</RouterLink>
+      <RouterLink class="found" to="/find_page">发现</RouterLink>
       <RouterLink class="cart" to="/cart">购物袋</RouterLink>
       <RouterLink class="user" to="/user">我的</RouterLink>
     </nav>

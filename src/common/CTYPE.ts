@@ -1,4 +1,4 @@
-const CTYPE = {
+const   CTYPE = {
     REGION_PATH: window.location.protocol + '//c1.wakkaa.com/assets/pca-code.json',
     qqmapKey: 'LEHBZ-CAIAJ-MKTFI-FRZEA-GMUSJ-XYFSK',
     accountType: { mobile: 1 },
@@ -36,7 +36,11 @@ const CTYPE = {
     homeItem: {
         homeItemTitles: [
             { key: 'BARGAIN', more_link: '/bargins' },
-            { key: 'NEW_PRODUCT', more_link: '/products' }
+            { key: 'NEW_PRODUCT', more_link: '/products' },
+            { key: 'HOT_PRODUCT', more_link: '/products_hot' },
+            { key: 'FIND_USEFUL', more_link: '/find_useful' },
+            { key: 'FIND_MERCHANT', more_link: '/find_merchant' },
+            { key: 'FIND_ARTICLE', more_link: '/find_article' },
         ]
     },
 };

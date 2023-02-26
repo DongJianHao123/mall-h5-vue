@@ -146,7 +146,7 @@ export interface BrandModel {
     logo?: string
 }
 
-export interface HomeUIItem {
+export interface UIItem {
     key: string,
     list: Array<any>,
     listStyle: number,
